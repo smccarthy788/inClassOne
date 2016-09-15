@@ -1,3 +1,46 @@
 body, html {
-  font-size: 12px;
+  font-size: 62.5%;
+  font-family: sans-serif, Georgia;
+}
+
+img {
+	max-width: 10vw;
+}
+
+basic-paragrah {
+	color: green;
+	font-size: 1.3rem;
+	float: right;
+}
+
+nav {
+	margin: 0 25vw 0 25vw;
+	font-size: 25px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li > a {
+	color: blue;
+}
+
+nav ul li > a:hover{
+	display: none; /* Chaos. Pure Chaos. */
+}
+
+fieldset {
+	text-align: center;
+	background-color: yellow;
+}
+
+.noShow {
+	display: none;
 }
